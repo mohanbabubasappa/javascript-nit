@@ -1,0 +1,23 @@
+let a=10
+let b=123.9
+let b1=BigInt(123456789)
+let c="mohan"
+let d='mohan'
+let e=true
+let f=false
+let g=null
+let h=undefined
+let i={a:1,b:"sneha",c:true}
+let j=[1,2,3,4,5,6,7,8,9]
+
+console.log(typeof a)
+console.log(typeof b)
+console.log(typeof b1)
+console.log(typeof c)
+console.log(typeof d)
+console.log(typeof e)
+console.log(typeof f)
+console.log(typeof g)
+console.log(typeof h)
+console.log(typeof i)
+console.log(typeof j)
