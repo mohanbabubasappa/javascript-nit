@@ -1,10 +1,6 @@
 class BankAccount {
-  #balance;
-
-  constructor(owner, initialBalance = 0) {
-    this.owner = owner;
-    this.#balance = initialBalance;
-  }
+  #balance = 0;
+  owner = 'Mohan';
 
   deposit(amount) {
     if (amount <= 0) {
@@ -15,7 +11,7 @@ class BankAccount {
     console.log(`${this.owner} deposited $${amount}.`);
   }
 
-  withdraw(amount) {
+  #withdraw(amount) {
     if (amount <= 0) {
       console.log('Withdrawal amount must be positive.');
       return;
@@ -28,13 +24,16 @@ class BankAccount {
     console.log(`${this.owner} withdrew $${amount}.`);
   }
 
+  requestWithdrawal(amount) {
+    this.#withdraw(amount);
+  }
+
   getBalance() {
     return this.#balance;
   }
+}
 
-  }
-
-const account = new BankAccount('Mohan', 100);
+const account = new BankAccount();
 account.deposit(50);
-account.withdraw(30);
+account.requestWithdrawal(30);
 console.log(`${account.owner}'s balance is $${account.getBalance()}.`);
