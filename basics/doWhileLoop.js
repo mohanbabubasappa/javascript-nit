@@ -10,4 +10,4 @@ let j=12
 do{
     console.log(j)
     j--
-}while(i<1)
+}while(j>=1)
