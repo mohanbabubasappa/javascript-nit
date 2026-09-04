@@ -5,8 +5,8 @@ let c="mohan"
 let d='mohan'
 let e=true
 let f=false
-let g=null
-let h=undefined
+let g=null //null-object type
+let h=undefined // undefined type
 let i={a:1,b:"sneha",c:true}
 let j=[1,2,3,4,5,6,7,8,9]
 
