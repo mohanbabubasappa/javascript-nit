@@ -1,0 +1,204 @@
+JAVASCRIPT OOPS ASSIGNMENT
+==========================
+
+Instructions
+------------
+1. Complete each task in a separate JavaScript file or organize all tasks clearly in one file.
+2. Use console.log() to demonstrate the result of every task.
+3. Use meaningful class, method, and variable names.
+4. Test the programs with different values.
+5. Do not use external libraries.
+
+SECTION 1: CLASSES AND OBJECTS
+------------------------------
+
+1. Basic class
+   Create a Person class with name and age properties. Add a displayDetails() method.
+   Create at least three Person objects and display their details.
+
+2. Class methods
+   Create a Calculator class with methods for addition, subtraction, multiplication, and division.
+   Create an object and call every method.
+
+3. Multiple methods
+   Create a BankAccount class with methods deposit(), withdraw(), and displayBalance().
+   Prevent withdrawals when the requested amount is greater than the account balance.
+
+SECTION 2: CONSTRUCTORS
+-----------------------
+
+4. Constructor basics
+   Create a Student class with a constructor that accepts name, roll number, course, and marks.
+   Create at least three students and display their details.
+
+5. Constructor defaults
+   Create a Product class whose constructor accepts a name, price, and quantity.
+   Give quantity a default value of 1 when it is not provided.
+
+6. Constructor calculations
+   Create an Employee class with name, role, monthly salary, and working months.
+   Add a method that calculates the total salary earned.
+
+SECTION 3: ENCAPSULATION
+-------------------------
+
+7. Private fields
+   Create a User class with private fields for username and password.
+   Add methods to change the password and verify a password without directly exposing the password.
+
+8. Encapsulated bank account
+   Create a BankAccount class with a private balance field.
+   Provide public deposit(), withdraw(), and getBalance() methods.
+   Validate that deposits and withdrawals use positive amounts.
+
+9. Getters and setters
+   Create a Temperature class with a private Celsius value.
+   Use a getter to return Celsius and a setter that rejects temperatures below absolute zero.
+   Add a method or getter to return the Fahrenheit value.
+
+SECTION 4: INHERITANCE
+----------------------
+
+10. Single inheritance
+    Create a Vehicle class with brand and speed properties and a move() method.
+    Create a Car class that extends Vehicle and adds a numberOfDoors property and drive() method.
+    Create a Car object and use inherited and child methods.
+
+11. Method overriding
+    Create an Animal class with a makeSound() method.
+    Create Dog and Cat classes that extend Animal and override makeSound() with their own behavior.
+    Store the objects in an array and call makeSound() for each one.
+
+12. Super keyword
+    Create a Person class with a constructor and introduce() method.
+    Create an Employee class that extends Person, calls super() in its constructor,
+    adds a job title, and overrides introduce() while also using super.introduce().
+
+SECTION 5: MULTILEVEL INHERITANCE
+---------------------------------
+
+13. Multilevel inheritance
+    Create a LivingThing class, an Animal class extending LivingThing, and a Dog class extending Animal.
+    Add one method at each level and demonstrate that a Dog object can use all inherited methods.
+
+14. Multilevel practical example
+    Create classes User, Staff, and Manager in an inheritance chain.
+    Give each class at least one property or method. Display all available information for a Manager object.
+
+SECTION 6: HIERARCHICAL INHERITANCE
+-----------------------------------
+
+15. Hierarchical inheritance
+    Create a Shape base class with a color property.
+    Create Circle, Rectangle, and Triangle classes that extend Shape.
+    Add an area() method to each child class and display the area of each shape.
+
+16. Hierarchical transport system
+    Create a Vehicle base class and child classes Bike, Bus, and Truck.
+    Give each child class a different calculateFare() or calculateCapacity() method.
+    Demonstrate the different behaviors using the same base type.
+
+SECTION 7: METHOD OVERLOADING SIMULATION
+----------------------------------------
+
+17. Method overloading in JavaScript
+    JavaScript does not support traditional method overloading by method signature.
+    Create a Calculator class with one add() method that handles two, three, or more numbers
+    using rest parameters.
+
+18. Flexible greetings
+    Create a Greeter class with a greet() method that behaves differently when it receives:
+    - No argument
+    - One name
+    - A name and a time of day
+
+19. Flexible area calculator
+    Create a ShapeCalculator class with one area() method that calculates:
+    - A square when one argument is provided
+    - A rectangle when two arguments are provided
+    - A circle when a radius and a suitable option are provided
+
+SECTION 8: POLYMORPHISM AND OBJECT DESIGN
+-----------------------------------------
+
+20. Polymorphic payment system
+    Create a Payment base class with a pay() method.
+    Create CardPayment, CashPayment, and UpiPayment child classes that implement pay() differently.
+    Process all payment objects through one function.
+
+21. Polymorphic notifications
+    Create an abstract-style Notification class with a send() method.
+    Create EmailNotification, SmsNotification, and PushNotification classes.
+    Store them in an array and send every notification using the same method call.
+
+22. Static members
+    Create a School class with a static schoolName property or method.
+    Show the difference between a static member and an object member.
+
+SECTION 9: INTEGRATED PRACTICE
+------------------------------
+
+23. Library management system
+    Build a library system using classes and objects.
+
+    Requirements:
+    - Create Book, Member, and Library classes.
+    - A Book must contain title, author, and availability status.
+    - A Member must be able to borrow and return books.
+    - The Library must add books, register members, search for books, and display available books.
+    - Use encapsulation for book availability or member data.
+    - Use inheritance for at least two types of books or members.
+    - Demonstrate method overriding in one child class.
+
+24. Employee payroll system
+    Build a payroll system using OOP concepts.
+
+    Requirements:
+    - Create an Employee base class.
+    - Create FullTimeEmployee and PartTimeEmployee child classes.
+    - Calculate salary differently for each employee type.
+    - Use a constructor in every relevant class.
+    - Keep salary data encapsulated where appropriate.
+    - Use a common method such as calculateSalary() to demonstrate polymorphism.
+    - Display the total payroll for all employees.
+
+25. E-commerce product system
+    Build a product and shopping cart system.
+
+    Requirements:
+    - Create Product, DigitalProduct, and PhysicalProduct classes.
+    - Use inheritance and method overriding for shipping cost calculation.
+    - Create a ShoppingCart class with addProduct(), removeProduct(), and calculateTotal() methods.
+    - Validate product quantity and price.
+    - Keep the cart's product list private or access it through methods.
+    - Display an itemized bill.
+
+FINAL PROJECT: VEHICLE RENTAL SYSTEM
+------------------------------------
+
+26. Create a vehicle rental system demonstrating all OOP topics.
+
+    Requirements:
+    - Create a Vehicle base class with common properties and methods.
+    - Create Car, Bike, and Truck child classes.
+    - Use constructors to initialize objects.
+    - Use encapsulation for rental availability and customer details.
+    - Use single inheritance and hierarchical inheritance.
+    - Override a method such as calculateRentalCost().
+    - Simulate method overloading for searching or booking vehicles.
+    - Create a RentalAgency class to manage vehicles and customers.
+    - Add vehicles, register customers, rent vehicles, return vehicles, and display availability.
+    - Calculate rental cost based on vehicle type and number of days.
+    - Reject attempts to rent unavailable vehicles.
+    - Display a clear final rental summary.
+
+CHALLENGE TASKS
+---------------
+
+27. Create an abstract-style Shape class that requires child classes to implement area().
+
+28. Add getters and setters to validate all important data in the payroll system.
+
+29. Create a reusable printDetails() method and override it in at least three child classes.
+
+30. Draw or write a short explanation of the class relationships used in your final project.

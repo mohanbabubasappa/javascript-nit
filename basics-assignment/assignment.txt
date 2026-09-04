@@ -1,0 +1,214 @@
+JAVASCRIPT BASICS ASSIGNMENT
+============================
+
+Instructions
+------------
+1. Create one JavaScript file for each task, or complete all tasks in one file.
+2. Use console.log() to display clear results.
+3. Do not use external libraries.
+4. Use meaningful variable and function names.
+5. Test every task with different values, including edge cases where suitable.
+
+SECTION 1: VARIABLES AND BASIC SYNTAX
+-------------------------------------
+
+1. Variable declarations
+   Create examples using var, let, and const. Store a person's name, age, and country.
+   Try changing the values and note which declarations allow reassignment.
+
+2. Comments
+   Write a short program containing single-line and multi-line comments explaining what the code does.
+
+3. Variable declaration practice
+   Declare variables for a product name, price, quantity, and discount. Display the final price after applying the discount.
+
+4. Literals
+   Create examples of string, number, boolean, null, undefined, array, and object literals.
+   Print each value.
+
+5. Data types
+   Create variables containing different JavaScript data types. Use typeof to display the type of each value.
+
+SECTION 2: OPERATORS AND EXPRESSIONS
+-------------------------------------
+
+6. Arithmetic operators
+   Ask for or assign two numbers and display the results of addition, subtraction, multiplication,
+   division, remainder, exponentiation, and unary minus.
+
+7. Increment and decrement
+   Create a counter that demonstrates pre-increment, post-increment, pre-decrement, and post-decrement.
+   Display the value before and after each operation.
+
+8. Relational operators
+   Compare two numbers using ==, ===, !=, !==, >, <, >=, and <=. Display each result.
+
+9. Logical operators
+   Create a login check using &&, ||, and !. Test combinations of username, password, and account status.
+
+SECTION 3: CONDITIONAL STATEMENTS
+----------------------------------
+
+10. if-else statement
+    Check whether a number is positive, negative, or zero.
+
+11. Nested if-else
+    Create an eligibility checker. A person must meet an age requirement and a second condition such as
+    having a valid identity card.
+
+12. Conditional or ternary operator
+    Use a ternary operator to display whether a number is even or odd.
+    Create one more ternary example of your choice.
+
+SECTION 4: LOOPS AND CONTROL FLOW
+----------------------------------
+
+13. for loop
+    Print numbers from 1 to 20. Then print the multiplication table of a number.
+
+14. while loop
+    Calculate the sum of numbers from 1 to n using a while loop.
+
+15. do-while loop
+    Display a menu-like message at least once using a do-while loop.
+
+16. break statement
+    Search for the first number between 1 and 100 that is divisible by both 7 and 11.
+    Stop the loop using break.
+
+17. continue statement
+    Print numbers from 1 to 30 but skip multiples of 3 using continue.
+
+18. for...of loop
+    Given an array of subjects, print each subject and its character count.
+
+19. for...in loop
+    Given an object containing student details, print every property name and value.
+
+SECTION 5: ARRAYS AND ARRAY METHODS
+------------------------------------
+
+20. Array creation and indexing
+    Create an array of ten numbers. Display its length, first element, last element, and an element at a chosen index.
+
+21. Array modification
+    Create an array of fruits. Demonstrate pop, push, shift, unshift, and direct index replacement.
+
+22. Array conversion and joining
+    Convert an array to a string using toString() and join(). Try at least two different separators.
+
+23. Array checking and concatenation
+    Use Array.isArray() to check values. Concatenate two arrays and display the result.
+
+24. Flat arrays
+    Create a nested array and use flat() to convert it into a one-level array.
+
+25. Splice
+    Create an array of car names. Remove two items and insert a replacement using splice().
+    Also demonstrate inserting an item without deleting existing items.
+
+26. Slice
+    Create an array of bikes. Use slice() to create:
+    a. A new array from index 1 to the end.
+    b. A new array from index 2 up to, but not including, index 4.
+    Confirm that the original array is unchanged.
+
+27. Sort and reverse
+    Sort an array of words and then reverse it. Also sort an array of numbers correctly using a comparison function.
+
+28. Array iteration methods
+    Create an array of marks and use forEach() to display each mark and its index.
+    Use map() to create a new array containing doubled marks.
+
+SECTION 6: FUNCTIONS AND ARROW FUNCTIONS
+----------------------------------------
+
+29. Regular functions
+    Write functions for greeting a user, adding two numbers, finding the largest of two numbers,
+    and calculating the area of a rectangle.
+
+30. Function parameters and return values
+    Write a function that accepts an array of numbers and returns the total and average.
+
+31. Arrow functions
+    Rewrite at least three functions from the previous task as arrow functions.
+    Include one arrow function with one parameter and one with multiple parameters.
+
+SECTION 7: OBJECTS AND COLLECTIONS
+----------------------------------
+
+32. Object creation
+    Create a student object with name, age, course, and marks properties. Display each property.
+    Add a new property, update one property, and delete one property.
+
+33. Array of objects
+    Create an array containing at least five student objects. Display the names of all students.
+    Find and display students who scored more than 75.
+
+34. Map object
+    Create a Map containing product IDs and product names. Add, read, update, delete, and check entries.
+    Display its size and iterate over all entries.
+
+35. Set object
+    Create a Set containing repeated numbers and display the unique values.
+    Add a value, delete a value, check whether a value exists, and display the Set size.
+
+SECTION 8: STRINGS
+------------------
+
+36. String inspection
+    For the string "Ramachandra", display its length, first occurrence of a character, last occurrence,
+    search result, includes result, startsWith result, and endsWith result.
+
+37. String character access
+    Display a selected character using charAt(), at(), and bracket notation.
+    Display its character code using charCodeAt().
+
+38. String extraction and trimming
+    Use substring() with one argument and two arguments.
+    Test trim(), trimStart(), and trimEnd() using a string with extra spaces.
+
+39. String case conversion
+    Convert a string to lowercase and uppercase using both locale-aware and regular methods.
+
+40. String transformation
+    Split a sentence into an array of words. Repeat a short string three times.
+    Replace one occurrence with replace() and all occurrences with replaceAll().
+
+SECTION 9: DATE OBJECT
+----------------------
+
+41. Date basics
+    Create a Date object for the current date and display the full date and time.
+    Display the year, month, day, hours, minutes, and seconds separately.
+
+42. Date modification
+    Create a date for a person's birth date. Calculate and display an approximate age.
+    Create a date 30 days from today.
+
+FINAL MINI PROJECT
+------------------
+
+43. Student report system
+    Build a small student report program using arrays, objects, functions, loops, operators, and conditionals.
+
+    Requirements:
+    - Store at least five students with names and marks for three subjects.
+    - Calculate each student's total, average, and grade.
+    - Display whether each student passed or failed.
+    - Find the highest-scoring student.
+    - Display the class average.
+    - Use at least one array method, one arrow function, and one object or Map.
+    - Keep the output organized and easy to read.
+
+CHALLENGE TASKS
+---------------
+
+44. Remove duplicate values from an array using a Set.
+
+45. Count how many times each word appears in a sentence using a Map.
+
+46. Create a number guessing program using conditionals, a loop, and break.
+
+47. Create a simple shopping cart using an array of product objects. Support adding products,
+    removing products, calculating the total, and applying a discount.

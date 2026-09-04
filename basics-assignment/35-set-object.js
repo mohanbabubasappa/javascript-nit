@@ -1,0 +1,5 @@
+const uniqueNumbers = new Set([1, 2, 2, 3, 3, 4])
+uniqueNumbers.add(5)
+console.log(uniqueNumbers.has(3), uniqueNumbers.size)
+uniqueNumbers.delete(1)
+console.log([...uniqueNumbers])

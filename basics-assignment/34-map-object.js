@@ -1,0 +1,7 @@
+const products = new Map([[101, "Pen"], [102, "Book"]])
+products.set(103, "Bag")
+console.log(products.get(101))
+products.set(101, "Blue Pen")
+console.log(products.has(102), products.size)
+products.delete(102)
+for (const [id, name] of products) console.log(id, name)
